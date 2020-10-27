@@ -1,0 +1,31 @@
+Church list / dictionary
+        'rrac': 'Ross River Anglican Church',
+        'twmc': 'Townsville Wesleyan Methodist Church',
+        'wpc': 'Willows Presbyterian Church'}
+
+
+
+RRAC (Anglicans):
+TODO:
+    Retrieve file info (preacher, book, date(?), url)
+    Check if a file already exists (stop getting urls from the first duplicate)
+DONE:
+    Page holding sermons:
+        http://www.rrachurch.com/bible-talks/?pagenum=***
+    To get MP3 files:
+        http://www.rrachurch.com/wp-content/uploads/sermons/  +  file_name=******
+
+
+TWMC (Methodists):
+    Page holding sermons:
+        https://www.townsville.wesleyan.org.au/?page_id=57&paged=***
+    To get MP3 files:
+        <audio controls preload="metadata" class="wpfc-sermon-player " >
+            <source src=****** type="audio/mp3">
+        </audio>
+
+
+WPC (Presbyterians):
+    # 874  <a class='page-numbers' href='https://www.willows.org.au/sermons-studies/sermons-2/page/24/'>24</a>
+    #
+    # https://www.willows.org.au/sermons-studies/sermons-2/page/24/
